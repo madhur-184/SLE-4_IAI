@@ -46,11 +46,4 @@ This repository holds my **SLE-4 submission**: one Architecture Decision Record 
 - Memory grows as O(b^d), so BFS would not scale to a 15-puzzle (about 10^13 states).
 - Next step for larger puzzles: add a Heuristic Module (a 7th container in the C4 model) and move to A* / IDA*.
 
-## Connection to my other SLEs
 
-| SLE | Work | Link |
-| --- | --- | --- |
-| SLE-1 | Simple AI bot | – |
-| SLE-2 | BFS vs DFS profiling on the 8-Puzzle (py-spy, `time.perf_counter`) | https://github.com/madhur-184/IAI-SLE |
-| SLE-3 | Full C4 architecture model (6 containers, Search Engine components) | https://github.com/madhur-184/SLE-3_IAI |
-| SLE-4 | ADR + viva (this repo) | https://github.com/madhur-184/SLE-4_IAI |
